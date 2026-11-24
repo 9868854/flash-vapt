@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101426">
+<title>Flash Vapt | Serviços online</title>
+<style>
+:root{--bg:#0b1020;--panel:#151d35;--pink:#ff4fa3;--purple:#8b5cf6;--text:#f7f7fb;--muted:#b9c0d4}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(150deg,#0b1020,#17112e);color:var(--text);line-height:1.55}
+header{padding:24px 18px;text-align:center;background:#101426;border-bottom:1px solid #34304e}
+.logo{font-size:30px;font-weight:900;letter-spacing:.5px}.logo span{color:var(--pink)}
+nav{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:12px}a{color:#ff8bc2;text-decoration:none}
+main{max-width:960px;margin:auto;padding:22px 16px}.hero{text-align:center;padding:44px 18px 34px}
+h1{font-size:clamp(32px,7vw,52px);line-height:1.1;margin:0 0 16px}.hero p{color:var(--muted);font-size:18px;max-width:650px;margin:0 auto 24px}
+.btn{display:inline-block;background:linear-gradient(90deg,var(--pink),var(--purple));color:white;padding:13px 19px;border-radius:12px;font-weight:bold;border:0}
+h2{font-size:27px;margin:35px 0 16px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid #343b5c;border-radius:16px;padding:18px}.card h3{margin:0 0 8px}.card p,.muted{color:var(--muted)}
+.card .btn{margin-top:8px}.steps{padding-left:22px}.steps li{margin:9px 0}
+section{margin:28px 0}.contact{background:#171d36;border-radius:18px;padding:22px;text-align:center}
+footer{text-align:center;color:var(--muted);padding:28px 14px;border-top:1px solid #34304e}
+.menu{position:fixed;right:14px;top:14px;z-index:5}.menu button{background:#252d49;color:white;border:1px solid #59617e;border-radius:10px;padding:10px 13px;font-size:20px}
+.menucontent{display:none;position:absolute;right:0;top:48px;background:#151d35;padding:14px;border-radius:12px;min-width:180px;border:1px solid #59617e}.menucontent a{display:block;padding:7px}
+form{display:grid;gap:10px;max-width:550px;margin:16px auto 0;text-align:left}input,textarea,select{width:100%;padding:12px;border-radius:9px;border:1px solid #68708b;background:#0d1428;color:white;font:inherit}
+label{font-size:14px;color:var(--muted)}
+@media(max-width:480px){.hero{padding-top:32px}.logo{font-size:26px}}
+</style>
+</head>
+<body>
+<div class="menu"><button aria-label="Abrir menu" onclick="let m=document.getElementById('menu');m.style.display=m.style.display==='block'?'none':'block'">☰</button><div class="menucontent" id="menu"><a href="#servicos">Serviços</a><a href="#como-funciona">Como funciona</a><a href="#suporte">Suporte</a><a href="#comunidade">Comunidade</a><a href="https://wa.me/5531997234175">WhatsApp</a></div></div>
+<header><div class="logo">FLASH <span>VAPT</span></div><nav><a href="#servicos">Serviços</a><a href="#como-funciona">Como funciona</a><a href="#suporte">Suporte</a></nav></header>
+<main>
+<section class="hero"><h1>Seu serviço online, <span style="color:#ff70b5">sem complicação.</span></h1><p>Peça serviços digitais de forma rápida e prática. Escolha o que precisa e fale diretamente pelo WhatsApp.</p><a class="btn" href="#servicos">Conhecer serviços</a></section>
+<section id="servicos"><h2>O que você precisa hoje?</h2><div class="grid">
+<div class="card"><h3>📄 Documentos e digitação</h3><p>Digitação, organização e formatação de documentos.</p><a class="btn" href="https://wa.me/5531997234175?text=Ol%C3%A1!%20Quero%20solicitar%20um%20servi%C3%A7o%20de%20documentos%20e%20digita%C3%A7%C3%A3o.">Solicitar serviço</a></div>
+<div class="card"><h3>🧾 Currículo profissional</h3><p>Criação ou atualização de currículo para suas oportunidades.</p><a class="btn" href="https://wa.me/5531997234175?text=Ol%C3%A1!%20Quero%20solicitar%20um%20curr%C3%ADculo%20profissional.">Solicitar serviço</a></div>
+<div class="card"><h3>📑 PDF</h3><p>Conversão, organização e pequenos ajustes em arquivos PDF.</p><a class="btn" href="https://wa.me/5531997234175?text=Ol%C3%A1!%20Preciso%20de%20ajuda%20com%20um%20arquivo%20PDF.">Solicitar serviço</a></div>
+<div class="card"><h3>🎨 Artes e design</h3><p>Artes simples para divulgação, redes sociais e materiais digitais.</p><a class="btn" href="https://wa.me/5531997234175?text=Ol%C3%A1!%20Quero%20solicitar%20uma%20arte%20ou%20design.">Solicitar serviço</a></div>
+<div class="card"><h3>🛍️ Anúncios de produtos</h3><p>Ajuda para organizar textos e informações de anúncios.</p><a class="btn" href="https://wa.me/5531997234175?text=Ol%C3%A1!%20Preciso%20de%20ajuda%20com%20an%C3%BAncio%20de%20produto.">Solicitar serviço</a></div>
+<div class="card"><h3>📊 Planilhas e organização</h3><p>Planilhas simples e organização de informações.</p><a class="btn" href="https://wa.me/5531997234175?text=Ol%C3%A1!%20Quero%20solicitar%20uma%20planilha.">Solicitar serviço</a></div>
+</div></section>
+<section id="como-funciona"><h2>Como funciona</h2><ol class="steps"><li>Escolha o serviço desejado.</li><li>Toque em “Solicitar serviço” para abrir o WhatsApp.</li><li>Explique o que precisa e envie os arquivos necessários.</li><li>Você receberá uma resposta com disponibilidade, prazo e valor antes de confirmar.</li></ol></section>
+<section id="comunidade" class="contact"><h2>Entre na comunidade</h2><p class="muted">Chame no WhatsApp. Depois do atendimento privado, você poderá ser adicionado ao grupo. Telegram em breve.</p><a class="btn" href="https://wa.me/5531997234175?text=Ol%C3%A1!%20Quero%20saber%20como%20entrar%20na%20comunidade%20Flash%20Vapt.">Falar no WhatsApp</a></section>
+<section id="suporte" class="contact"><h2>Fale com o suporte</h2><p class="muted">Preencha os campos e o WhatsApp abrirá com sua mensagem pronta. Você ainda precisará tocar em enviar.</p>
+<form onsubmit="event.preventDefault();let n=document.getElementById('nome').value,s=document.getElementById('assunto').value,m=document.getElementById('mensagem').value;let t='Olá! Meu nome é '+n+'. Assunto: '+s+'. Mensagem: '+m;window.open('https://wa.me/5531997234175?text='+encodeURIComponent(t),'_blank')">
+<label>Seu nome<input id="nome" required placeholder="Digite seu nome"></label><label>Assunto<select id="assunto"><option>Pedido de serviço</option><option>Dúvida</option><option>Suporte</option><option>Comunidade</option></select></label><label>Mensagem<textarea id="mensagem" rows="4" required placeholder="Como podemos ajudar?"></textarea></label><button class="btn" type="submit">Enviar pelo WhatsApp</button></form></section>
+</main><footer>© Flash Vapt — Serviços online<br><a href="https://wa.me/5531997234175">Contato pelo WhatsApp</a></footer>
+</body></html>
